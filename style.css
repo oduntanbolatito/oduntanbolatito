@@ -1,0 +1,9 @@
+   body { font-family: sans-serif; line-height: 1.6; margin: 0; padding: 20px; color: #333; text:#2D3436; background-color: #0F172A;
+    color: #F8FAFC;}
+        header { text-align: center; padding: 50px 0; }
+        .container { max-width: 800px; margin: auto; }
+        .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px; }
+        .card { border: 1px solid #ddd; padding: 20px; border-radius: 8px; transition: 0.3s; }
+        .card:hover { box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        footer { text-align: center; margin-top: 50px; font-size: 0.9em; color: #F8FAFC;}
+        p{color: #F8FAFC;}
